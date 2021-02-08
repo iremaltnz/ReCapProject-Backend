@@ -5,7 +5,7 @@
 #include<time.h>
 #include<stdlib.h>
 
-FILE *fp;
+/*FILE *fp;
 int kullanici1;
 int kullanici2;
    
@@ -20,7 +20,7 @@ int kullanici2;
 
    int sayi;
    int a,b;
-
+*/
    
 void oyuncu1(){
  char text[100]="oyuncu1 tahmini:";
