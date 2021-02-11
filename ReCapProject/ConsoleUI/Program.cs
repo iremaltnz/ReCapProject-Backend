@@ -11,26 +11,31 @@ namespace ConsoleUI
         {
             //InMemoryTest();
 
-            //EFCarDalTest();
+            EFCarDalTest();
 
-            //ColorTest();
+           // ColorTest();
 
-            // BrandTest();
+           //  BrandTest();
 
+           // CarTest();
+
+        }
+
+        private static void CarTest()
+        {
             CarManager carManager = new CarManager(new EFCarDal());
 
-            foreach (var c in carManager.GetCarDetails())
+            foreach (var c in carManager.GetCarDetails().Data)
             {
-                Console.WriteLine("{0} {1} {2} {3}",c.CarName,c.BrandName,c.ColorName,c.DailyPrice);
+                Console.WriteLine("{0} {1} {2} {3}", c.CarName, c.BrandName, c.ColorName, c.DailyPrice);
             }
-
         }
 
         private static void BrandTest()
         {
             BrandManager brandManager = new BrandManager(new EFBrandDal());
 
-            foreach (var b in brandManager.GetAll())
+            foreach (var b in brandManager.GetAll().Data)
             {
                 Console.WriteLine("{0} {1}", b.BrandId, b.BrandName);
             }
@@ -39,7 +44,7 @@ namespace ConsoleUI
         private static void ColorTest()
         {
             ColorManager colorManager = new ColorManager(new EFColorDal());
-            foreach (var c in colorManager.GetAll())
+            foreach (var c in colorManager.GetAll().Data)
             {
                 Console.WriteLine("{0}  {1}", c.ColorId, c.ColorName);
             }
@@ -48,16 +53,18 @@ namespace ConsoleUI
         private static void EFCarDalTest()
         {
             CarManager carManager = new CarManager(new EFCarDal());
-            foreach (var c in carManager.GetById(3))
+            foreach (var c in carManager.GetCarsByBrandId(2).Data)
             {
                 Console.WriteLine(c.Description);
             }
+
+            Console.WriteLine(carManager.GetById(2).Data.CarName);
         }
 
         private static void InMemoryTest()
         {
             CarManager carManager = new CarManager(new InMemoryCarDal());
-            foreach (var c in carManager.GetAll())
+            foreach (var c in carManager.GetAll().Data)
             {
                 Console.WriteLine(c.Description);
             }
