@@ -6191,11 +6191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\obj\\",
+      "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -6216,11 +6216,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }

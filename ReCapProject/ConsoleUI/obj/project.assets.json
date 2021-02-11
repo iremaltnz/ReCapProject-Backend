@@ -6345,11 +6345,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -6370,8 +6370,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj"
+            "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj"
             }
           }
         }

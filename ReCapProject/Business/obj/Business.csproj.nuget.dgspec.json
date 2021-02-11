@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj": {}
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {}
   },
   "projects": {
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -123,14 +123,14 @@
         }
       }
     },
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -151,8 +151,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -185,14 +185,14 @@
         }
       }
     },
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -213,8 +213,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }

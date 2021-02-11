@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj": {}
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
