@@ -1,6 +1,7 @@
 ﻿using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
+using Entities.Concrete;
 using System;
 
 namespace ConsoleUI
@@ -11,14 +12,54 @@ namespace ConsoleUI
         {
             //InMemoryTest();
 
-            EFCarDalTest();
+            // EFCarDalTest();
 
-           // ColorTest();
+            // ColorTest();
 
-           //  BrandTest();
+            //  BrandTest();
 
-           // CarTest();
+            // CarTest();
 
+            //UserTest();
+        }
+
+        private static void UserTest()
+        {
+            UserManager userManager = new UserManager(new EFUserDal());
+
+            foreach (var u in userManager.GetAll().Data)
+            {
+                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
+            }
+
+
+
+            User user = new User { Id = 3, FirstName = "Ali", LastName = "Altnz", Email = "789@gmail.com", Password = "+++" };
+
+            userManager.Add(user);
+
+            foreach (var u in userManager.GetAll().Data)
+            {
+                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
+            }
+
+
+
+            user.FirstName = "Ayşe";
+
+            userManager.Update(user);
+
+            foreach (var u in userManager.GetAll().Data)
+            {
+                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
+            }
+
+
+            userManager.Delete(user);
+            foreach (var u in userManager.GetAll().Data)
+            {
+                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
+            }
         }
 
         private static void CarTest()

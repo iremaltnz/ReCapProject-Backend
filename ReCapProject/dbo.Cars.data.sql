@@ -1,7 +1,0 @@
-﻿INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (1, 2, 1, N'Fiat', 300, 2012, N'2012 Model')
-INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (2, 1, 2, N'Audi', 450, 2016, N'2016 Model')
-INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (3, 3, 1, N'Ford', 500, 2017, N'2017 Model')
-INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (4, 2, 3, N'Fiat', 250, 2010, N'2010 Model')
-INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (5, 1, 1, N'Audi', 700, 2018, N'2018 Model')
-INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (6, 2, 4, N'Fiat', 900, 2019, N'2019 Model')
-INSERT INTO [dbo].[Cars] ([CarId], [BrandId], [ColorId], [CarName], [DailyPrice], [ModelYear], [Description]) VALUES (7, 3, 2, N'Ford', 200000, 2020, N'2020 Model')

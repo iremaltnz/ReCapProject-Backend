@@ -17,12 +17,18 @@ namespace Core.DataAccess.EntityFramework
             {
 
                 using (TContext context = new TContext())
-                {
-                    var addedCar = context.Entry(entity);
-                    addedCar.State = Microsoft.EntityFrameworkCore.EntityState.Added;
-                    context.SaveChanges();
-                }
-            }
+              {
+                //IDısposable pattern implementation of c# -> araştır
+                //using bittiği anda belleği temizleme
+
+                var addedEntity = context.Entry(entity);//veri kaynağından gönderilen producta eşleştir
+                //referansı yakalama
+                addedEntity.State = EntityState.Added;
+                //eklenecek nesne
+                context.SaveChanges();
+                //Ekleme işlemini yaptı
+              }
+         }
 
 
 
@@ -31,8 +37,8 @@ namespace Core.DataAccess.EntityFramework
 
                 using (TContext context = new TContext())
                 {
-                    var deletedCar = context.Entry(entity);
-                    deletedCar.State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+                    var deletedEntity = context.Entry(entity);
+                    deletedEntity.State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
                     context.SaveChanges();
                 }
             }
@@ -65,8 +71,8 @@ namespace Core.DataAccess.EntityFramework
 
                 using (TContext context = new TContext())
                 {
-                    var updatedCar = context.Entry(entity);
-                    updatedCar.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    var updatedEntity = context.Entry(entity);
+                    updatedEntity.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                     context.SaveChanges();
                 }
             }

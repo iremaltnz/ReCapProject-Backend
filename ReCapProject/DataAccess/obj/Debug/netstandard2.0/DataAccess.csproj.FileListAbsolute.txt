@@ -12,3 +12,17 @@ D:\Users\CASPER\Desktop\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAcc
 D:\Users\CASPER\Desktop\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
 D:\Users\CASPER\Desktop\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
 D:\Users\CASPER\Desktop\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete

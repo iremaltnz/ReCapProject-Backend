@@ -10,3 +10,15 @@ D:\Users\CASPER\Desktop\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.
 D:\Users\CASPER\Desktop\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
 D:\Users\CASPER\Desktop\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
 D:\Users\CASPER\Desktop\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
