@@ -18,15 +18,11 @@ namespace Core.DataAccess.EntityFramework
 
                 using (TContext context = new TContext())
               {
-                //IDısposable pattern implementation of c# -> araştır
-                //using bittiği anda belleği temizleme
-
-                var addedEntity = context.Entry(entity);//veri kaynağından gönderilen producta eşleştir
-                //referansı yakalama
+                
+                var addedEntity = context.Entry(entity); 
                 addedEntity.State = EntityState.Added;
-                //eklenecek nesne
                 context.SaveChanges();
-                //Ekleme işlemini yaptı
+              
               }
          }
 
