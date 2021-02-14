@@ -38,3 +38,4 @@ C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProj
 C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp2.1\ConsoleUI.csproj.CopyComplete
 C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp2.1\ConsoleUI.dll
 C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp2.1\ConsoleUI.pdb
+C:\Users\CASPER\Desktop\YazilimGelistirmeKampi\YazilimGelistiriciKampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp2.1\ConsoleUI.genruntimeconfig.cache
