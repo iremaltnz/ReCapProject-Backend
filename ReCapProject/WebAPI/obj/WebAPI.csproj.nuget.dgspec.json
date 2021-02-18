@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
+    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
     "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
@@ -50,6 +50,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -267,14 +275,14 @@
         }
       }
     },
-    "D:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\WebAPI\\WebAPI.csproj": {
+    "D:\\Users\\CASPER\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\WebAPI\\WebAPI.csproj",
+        "projectPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\WebAPI\\obj\\",
+        "outputPath": "D:\\Users\\CASPER\\Desktop\\ReCapProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -319,6 +327,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.2.0, )"
