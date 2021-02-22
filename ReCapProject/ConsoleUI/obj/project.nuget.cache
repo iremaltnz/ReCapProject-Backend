@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4k8nzUpZxkL1vTqlzYSrxQaUq47Z9kemFfLM6ntwtyDHBHd9v0t2Eaex2JBEDDfdyMUIGGFOLWJAwZtuVLjOaQ==",
+  "dgSpecHash": "RcMz3Pi7A8d5xWT5MP0H2mPGS+dZat0DcXg9oH6sFnZpF0tQYV11frydMVxG49eSA459nxyBTNC9wRZ1LE7UvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CASPER\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\CASPER\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
-    "C:\\Users\\CASPER\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
