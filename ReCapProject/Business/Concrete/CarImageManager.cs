@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Helpers;
 using Core.Utilities.Result;
@@ -21,6 +23,7 @@ namespace Business.Concrete
             _carImageDal = carImageDal;
         }
 
+        [ValidationAspect(typeof(CarImageValidator))]
         public IResult Add( IFormFile file, CarImage carImage )
         {
             var result = BusinessRules.Run(CheckIfCategoryLimitExceded(carImage.CarId));
