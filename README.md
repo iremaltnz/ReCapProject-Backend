@@ -1,3 +1,3 @@
 # ReCapProject -güncellemeler
-Autofac desteği eklendi.
+Autofac , FluentValidation , AOP desteği eklendi.
 	
