@@ -48,7 +48,7 @@ namespace Core.DataAccess.EntityFramework
                     return filter == null
                         ? context.Set<TEntity>().ToList()
                         : context.Set<TEntity>().Where(filter).ToList();
-                    // select*from products : filtre konulmuş hali 
+                   
                 }
             }
 
@@ -60,9 +60,10 @@ namespace Core.DataAccess.EntityFramework
                 }
             }
 
+       
 
 
-            public void Update(TEntity entity)
+        public void Update(TEntity entity)
             {
 
                 using (TContext context = new TContext())

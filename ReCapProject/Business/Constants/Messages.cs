@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -67,5 +69,9 @@ namespace Business.Constants
         public static string UserUpdated = "Kullanici güncellendi";
         public static string UserListed = "Kullanici listelendi";
 
+        public static string AuthorizationDenied = "Yetkiniz yok";
+        public static string UserNotFound="Kullanici bulunamadi";
+        public static string PasswordError = "Sifre hatali";
+        public static string UserRegistered = "Kullanici kaydı başarili";
     }
 }

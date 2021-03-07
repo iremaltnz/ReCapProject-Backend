@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -61,6 +61,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
@@ -91,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -118,8 +122,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Business\\Business.csproj"
               }
             }
           }
@@ -155,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -202,6 +206,14 @@
               "target": "Package",
               "version": "[9.5.1, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.3, )"
@@ -210,11 +222,19 @@
               "target": "Package",
               "version": "[3.1.11, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -231,14 +251,14 @@
         }
       }
     },
-    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -258,8 +278,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -299,14 +319,14 @@
         }
       }
     },
-    "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -326,8 +346,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\YazilimGelistirmeKampi\\YazilimGelistiriciKampi\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }

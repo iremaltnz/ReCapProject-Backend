@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -34,44 +35,44 @@ namespace ConsoleUI
             Console.WriteLine(rentalManager.Add(rental).Message);
         }
 
-        private static void UserTest()
-        {
-            UserManager userManager = new UserManager(new EFUserDal());
+        //private static void usertest()
+        //{
+        //    usermanager usermanager = new usermanager(new efuserdal());
 
-            foreach (var u in userManager.GetAll().Data)
-            {
-                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
-            }
-
-
-
-            User user = new User { Id = 3, FirstName = "Ali", LastName = "Altnz", Email = "789@gmail.com", Password = "+++" };
-
-            userManager.Add(user);
-
-            foreach (var u in userManager.GetAll().Data)
-            {
-                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
-            }
+        //    foreach (var u in usermanager.getall().data)
+        //    {
+        //        console.writeline("{0} {1} {2} ", u.firstname, u.lastname, u.email);
+        //    }
 
 
 
-            user.FirstName = "Ayşe";
+        //    user user = new user { ıd = 3, firstname = "ali", lastname = "altnz", email = "789@gmail.com", password = "+++" };
 
-            userManager.Update(user);
+        //    usermanager.add(user);
 
-            foreach (var u in userManager.GetAll().Data)
-            {
-                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
-            }
+        //    foreach (var u in usermanager.getall().data)
+        //    {
+        //        console.writeline("{0} {1} {2} ", u.firstname, u.lastname, u.email);
+        //    }
 
 
-            userManager.Delete(user);
-            foreach (var u in userManager.GetAll().Data)
-            {
-                Console.WriteLine("{0} {1} {2} ", u.FirstName, u.LastName, u.Email);
-            }
-        }
+
+        //    user.firstname = "ayşe";
+
+        //    usermanager.update(user);
+
+        //    foreach (var u in usermanager.getall().data)
+        //    {
+        //        console.writeline("{0} {1} {2} ", u.firstname, u.lastname, u.email);
+        //    }
+
+
+        //    usermanager.delete(user);
+        //    foreach (var u in usermanager.getall().data)
+        //    {
+        //        console.writeline("{0} {1} {2} ", u.firstname, u.lastname, u.email);
+        //    }
+        //}
 
         private static void CarTest()
         {
