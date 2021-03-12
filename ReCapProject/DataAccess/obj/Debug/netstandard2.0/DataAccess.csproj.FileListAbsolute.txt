@@ -1,0 +1,14 @@
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+D:\Users\CASPER\Desktop\ReCapProject-Backend\ReCapProject-Backend\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
