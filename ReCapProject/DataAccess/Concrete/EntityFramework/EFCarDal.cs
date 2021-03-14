@@ -27,10 +27,13 @@ namespace DataAccess.Concrete.EntityFramework
 
                              select new CarDetailDto
                              {
+                                 CarId=car.CarId,
                                  CarName = car.CarName,
                                  BrandName = brand.BrandName,
                                  ColorName = color.ColorName,
-                                 DailyPrice = car.DailyPrice
+                                 DailyPrice = car.DailyPrice,
+                                 Description=car.Description,
+                                 ModelYear=car.ModelYear
                              };
 
                 return result.ToList();

@@ -61,6 +61,8 @@ namespace Business.Constants
         public static string CustomerDeleted = "Musteri silindi";
         public static string CustomerUpdated = "Musteri güncellendi";
         public static string CustomerListed = "Musteri listelendi";
+        public static string CustomerDetailListed = "Musteri detayi listelendi";
+        
 
         public static string UserAdded = "Kullanici eklendi";
         public static string UserDeleted = "Kullanici silindi";
@@ -71,5 +73,7 @@ namespace Business.Constants
         public static string UserNotFound = "Kullanici bulunamadi";
         public static string PasswordError = "Sifre hatali";
         public static string UserRegistered = "Kullanici kaydı başarili";
+
+        public static string RentalDetailListed = "Kira detayi listelendi";
     }
 }

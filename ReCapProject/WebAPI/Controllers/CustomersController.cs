@@ -27,7 +27,7 @@ namespace WebAPI.Controllers
             var result = _customerService.GetAll();
             if (result.Success)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
             return BadRequest(result);
         }
@@ -61,6 +61,17 @@ namespace WebAPI.Controllers
         public IActionResult Update(Customer customer)
         {
             var result = _customerService.Update(customer);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getcustomerdetail")]
+        public IActionResult GetCustomerDetail()
+        {
+            var result = _customerService.GetCustomerDetail();
             if (result.Success)
             {
                 return Ok(result);

@@ -18,7 +18,7 @@ namespace ConsoleUI
 
             //  BrandTest();
 
-            CarTest();
+            //CarTest();
 
             //UserTest();
 
