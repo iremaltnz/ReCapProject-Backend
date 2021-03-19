@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Business.Abstract;
 using Business.Constants;
@@ -71,14 +72,15 @@ namespace Business.Concrete
 
         public IDataResult<List<CarImage>> GetImagesByCarId(int carId)
         {
-            var result = _carImageDal.GetAll(c => c.CarId == carId).Any();
-            if (!result)
+            var result = _carImageDal.GetAll(c => c.CarId == carId);
+            if (result.Count == 0)
             {
                 List<CarImage> carimage = new List<CarImage>();
                 carimage.Add(new CarImage { CarId = carId, ImagePath = @"\Images\default.jpg" });
                 return new SuccessDataResult<List<CarImage>>(carimage);
             }
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(p => p.CarId == carId));
+
         }
 
         private IResult CheckIfCategoryLimitExceded(int carId)

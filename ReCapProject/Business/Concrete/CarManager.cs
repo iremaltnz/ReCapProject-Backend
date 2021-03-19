@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Business.Abstract;
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
@@ -17,11 +18,15 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         private ICarDal _carDal;
+        private IBrandDal _brandDal;
+        private IColorDal _colorDal;
 
-        public CarManager(ICarDal carDal)
+        public CarManager(ICarDal carDal,IBrandDal brandDal,IColorDal colorDal)
         {
 
             _carDal = carDal;
+            _brandDal = brandDal;
+            _colorDal = colorDal;
         }
 
 
@@ -102,5 +107,23 @@ namespace Business.Concrete
 
             return null;
         }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByBrandId(int brandId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c=>c.BrandName == _brandDal.GetById(b=>b.BrandId==brandId).BrandName).ToList(), Messages.CarDetail);
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByColorId(int colorId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c => c.ColorName == _colorDal.GetById(b => b.ColorId == colorId).ColorName).ToList(), Messages.CarDetail);
+        }
+
+        public IDataResult<CarDetailDto> GetCarDetailsById(int carId)
+        {
+           
+            return new SuccessDataResult<CarDetailDto>(_carDal.GetCarDetail(carId),Messages.CarDetail);
+        }
+
+       
     }
 }

@@ -12,11 +12,11 @@ namespace ConsoleUI
         {
             //InMemoryTest();
 
-            // EFCarDalTest();
+            //EFCarDalTest();
 
             // ColorTest();
 
-            //  BrandTest();
+            //BrandTest();
 
             //CarTest();
 
@@ -24,6 +24,11 @@ namespace ConsoleUI
 
             // RentalTest();
 
+            CarImageManager carImageManager = new CarImageManager(new EFCarImageDal());
+            foreach (var item in carImageManager.GetImagesByCarId(1).Data)
+            {
+                Console.WriteLine("{0}  {1}", item.CarId,item.ImagePath);
+            }
         }
 
         private static void RentalTest()
@@ -73,15 +78,15 @@ namespace ConsoleUI
         //    }
         //}
 
-        private static void CarTest()
-        {
-            CarManager carManager = new CarManager(new EFCarDal());
+        //private static void CarTest()
+        //{
+        //    CarManager carManager = new CarManager(new EFCarDal());
 
-            foreach (var c in carManager.GetCarDetails().Data)
-            {
-                Console.WriteLine("{0} {1} {2} {3}", c.CarName, c.BrandName, c.ColorName, c.DailyPrice);
-            }
-        }
+        //    foreach (var c in carManager.GetCarDetails().Data)
+        //    {
+        //        Console.WriteLine("{0} {1} {2} {3}", c.CarName, c.BrandName, c.ColorName, c.DailyPrice);
+        //    }
+        //}
 
         private static void BrandTest()
         {
@@ -102,24 +107,24 @@ namespace ConsoleUI
             }
         }
 
-        private static void EFCarDalTest()
-        {
-            CarManager carManager = new CarManager(new EFCarDal());
-            foreach (var c in carManager.GetCarsByBrandId(2).Data)
-            {
-                Console.WriteLine(c.Description);
-            }
+        //private static void EFCarDalTest()
+        //{
+        //    CarManager carManager = new CarManager(new EFCarDal());
+        //    foreach (var c in carManager.GetCarsByBrandId(1).Data)
+        //    {
+        //        Console.WriteLine(c.Description);
+        //    }
 
-            Console.WriteLine(carManager.GetById(2).Data.CarName);
-        }
+        //    Console.WriteLine(carManager.GetById(2).Data.CarName);
+        //}
 
-        private static void InMemoryTest()
-        {
-            CarManager carManager = new CarManager(new InMemoryCarDal());
-            foreach (var c in carManager.GetAll().Data)
-            {
-                Console.WriteLine(c.Description);
-            }
-        }
+        //private static void InMemoryTest()
+        //{
+        //    CarManager carManager = new CarManager(new InMemoryCarDal());
+        //    foreach (var c in carManager.GetAll().Data)
+        //    {
+        //        Console.WriteLine(c.Description);
+        //    }
+        //}
     }
 }
