@@ -75,5 +75,11 @@ namespace Business.Constants
         public static string UserRegistered = "Kullanici kaydı başarili";
 
         public static string RentalDetailListed = "Kira detayi listelendi";
+
+        public static string PaymentSuccess = "Ödeme Basarili";
+        public static string PaymentError = "Ödeme Basarisiz";
+
+        public static string CheckError = "Araba Kiralanamaz";
+        public static string CheckSuccess = "Araba Kiralanabilir";
     }
 }

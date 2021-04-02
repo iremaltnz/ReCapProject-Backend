@@ -62,6 +62,6 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-       
+
     }
 }

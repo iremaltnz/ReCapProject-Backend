@@ -34,6 +34,20 @@ namespace Business.Concrete
             return new SuccessResult(Messages.RentalAdded);
         }
 
+        public IResult Check(Rental rental)
+        {
+            _rentals = _rentalDal.GetAll(r=>r.CarId==rental.CarId);
+            foreach (var r in _rentals)
+            {
+                if ((r.RentDate<=rental.RentDate && rental.RentDate<=r.ReturnDate)||(rental.RentDate<r.RentDate && rental.ReturnDate>r.RentDate))
+                {
+                    return new ErrorResult(Messages.CheckError);
+                }
+            }
+
+            return new SuccessResult(Messages.CheckSuccess);
+        }
+
         public IResult Delete(Rental rental)
         {
             _rentalDal.Delete(rental);

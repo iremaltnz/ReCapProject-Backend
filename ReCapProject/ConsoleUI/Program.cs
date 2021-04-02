@@ -24,10 +24,19 @@ namespace ConsoleUI
 
             // RentalTest();
 
+            //CarImage();
+
+            Payment payment = new Payment { FirstName = "İrem", LastName = "Altnz", CardNumber = 111222333, CVV = 000, MonthOfExpiration = 1, YearOfExpiration = 5 };
+            PaymentManager paymentManager = new PaymentManager();
+            Console.WriteLine( paymentManager.Check(payment) );
+        }
+
+        private static void CarImage()
+        {
             CarImageManager carImageManager = new CarImageManager(new EFCarImageDal());
             foreach (var item in carImageManager.GetImagesByCarId(1).Data)
             {
-                Console.WriteLine("{0}  {1}", item.CarId,item.ImagePath);
+                Console.WriteLine("{0}  {1}", item.CarId, item.ImagePath);
             }
         }
 
