@@ -9,7 +9,7 @@ namespace Business.Abstract
         IResult Add(Brand brand);
         IResult Delete(Brand brand);
         IDataResult<List<Brand>> GetAll();
-        IDataResult<Brand> GetById(int id);
+        IDataResult<Brand> GetById(int brandId);
         IResult Update(Brand brand);
     }
 }
