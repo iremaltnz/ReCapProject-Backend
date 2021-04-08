@@ -1,5 +1,5 @@
 ﻿using Business.Abstract;
-using Core.Entities.Concrete;
+using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,45 +11,41 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class CardsController : ControllerBase
     {
+        ICardService _cardService;
 
-        IUserService _userService;
-        public UsersController(IUserService userService)
+        public CardsController(ICardService cardService)
         {
-            _userService = userService;
+            _cardService = cardService;
         }
+        [HttpGet("getbyuserid")]
+        public IActionResult GetByUserId(int userId)
+        {
+            var result = _cardService.GetByUserId(userId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
 
+            return BadRequest(result);
+        }
         [HttpGet("getall")]
-        public IActionResult Get()
+        public IActionResult GetAll()
         {
-            var result = _userService.GetAll();
+            var result = _cardService.Get();
             if (result.Success)
             {
-                return Ok(result
-                    );
+                return Ok(result);
             }
+
             return BadRequest(result);
         }
-
-        [HttpGet("getbymail")]
-        public IActionResult GetByMail(string email)
-        {
-            var result = _userService.GetByMail(email);
-            if (result.Success)
-            {
-                return Ok(result
-                    );
-            }
-            return BadRequest(result);
-        }
-
-
 
         [HttpPost("add")]
-        public IActionResult Add(User user)
+        public IActionResult Add(Card card)
         {
-            var result = _userService.Add(user);
+            var result = _cardService.Add(card);
             if (result.Success)
             {
                 return Ok(result);
@@ -57,11 +53,10 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-
         [HttpPost("delete")]
-        public IActionResult Delete(User user)
+        public IActionResult Delete(Card card)
         {
-            var result = _userService.Delete(user);
+            var result = _cardService.Delete(card);
             if (result.Success)
             {
                 return Ok(result);
@@ -70,9 +65,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(User user)
+        public IActionResult Update(Card card)
         {
-            var result = _userService.Update(user);
+            var result = _cardService.Update(card);
             if (result.Success)
             {
                 return Ok(result);

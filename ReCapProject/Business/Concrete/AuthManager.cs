@@ -29,7 +29,7 @@ namespace Business.Concrete
         {
             var claims = _userService.GetClaims(user);
             var accessToken = _tokenHelper.CreateToken(user, claims.Data);
-            return new SuccessDataResult<AccessToken>(accessToken);
+            return new SuccessDataResult<AccessToken>(accessToken,Messages.AccessTokenCreated);
         }
 
         public IDataResult<User> Login(UserForLoginDto userForLoginDto)
@@ -46,7 +46,7 @@ namespace Business.Concrete
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
 
-            return new SuccessDataResult<User>(userToCheck.Data);
+            return new SuccessDataResult<User>(userToCheck.Data,Messages.UserLogin);
         }
 
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
@@ -65,7 +65,7 @@ namespace Business.Concrete
             };
 
             _userService.Add(user);
-            return new SuccessDataResult<User>(user, Messages.UserRegistered);
+            return new SuccessDataResult<User>(user,Messages.UserRegistered);
         }
 
         public IResult UserExists(string email)
@@ -75,6 +75,24 @@ namespace Business.Concrete
                 return new ErrorResult("Kullanıcı mevcut");
             }
             return new SuccessResult();
+        }
+        public IResult Update(UserForUpdateDto userForUpdateDto)
+        {
+            byte[] passwordHash, passwordSalt;
+            HashingHelper.CreatePasswordHash(userForUpdateDto.Password, out passwordHash, out passwordSalt);
+            var user = new User
+            {
+                Id = userForUpdateDto.Id,
+                Email = userForUpdateDto.Email,
+                FirstName = userForUpdateDto.FirstName,
+                LastName = userForUpdateDto.LastName,
+                PasswordHash = passwordHash,
+                PasswordSalt = passwordSalt,
+                Status = true
+
+            };
+            _userService.Update(user);
+            return new SuccessResult( Messages.UpdateSuccess);
         }
     }
 }

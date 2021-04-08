@@ -5,6 +5,7 @@ using Core.Aspects.Autofac.Validation;
 using Core.Entities.Concrete;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
+using Entities.DTOs;
 using System.Collections.Generic;
 
 namespace Business.Concrete

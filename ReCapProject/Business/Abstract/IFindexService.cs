@@ -6,9 +6,8 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    public interface IPaymentService
+   public interface IFindexService
     {
-   
-        IResult Check();
+        IResult FindexCheck(int customerId,int carId);
     }
 }

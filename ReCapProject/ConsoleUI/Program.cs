@@ -22,13 +22,30 @@ namespace ConsoleUI
 
             //UserTest();
 
-            // RentalTest();
+          //   RentalTest();
 
             //CarImage();
 
-            Payment payment = new Payment { FirstName = "İrem", LastName = "Altnz", CardNumber = 111222333, CVV = 000, MonthOfExpiration = 1, YearOfExpiration = 5 };
-            PaymentManager paymentManager = new PaymentManager();
-            Console.WriteLine( paymentManager.Check(payment) );
+          //   PaymentTest();
+
+            //FindexTest();
+
+        }
+
+        private static void FindexTest()
+        {
+            FindexManager findexManager = new FindexManager(new CarManager(new EFCarDal(), new EFBrandDal(), new EFColorDal()), new CustomerManager(new EFCustomerDal()));
+            Console.WriteLine(findexManager.FindexCheck(3, 11).Message);
+        }
+
+        private static void PaymentTest()
+        {
+            PaymentManager paymentManager = new PaymentManager(new EFPaymentDal());
+            foreach (var p in paymentManager.Get().Data)
+            {
+                Console.WriteLine(p.FirstName);
+            }
+          
         }
 
         private static void CarImage()
@@ -42,8 +59,8 @@ namespace ConsoleUI
 
         private static void RentalTest()
         {
-            RentalManager rentalManager = new RentalManager(new EFRentalDal());
-            Rental rental = new Rental { CarId = 1, CustomerId = 1, Id = 4, RentDate = new DateTime(2021, 1, 15, 7, 0, 0), ReturnDate = new DateTime(2021, 1, 16, 7, 0, 0) };
+            RentalManager rentalManager = new RentalManager(new EFRentalDal(),new FindexManager(new CarManager(new EFCarDal(), new EFBrandDal(), new EFColorDal()), new CustomerManager(new EFCustomerDal())));
+            Rental rental = new Rental { CarId = 2, CustomerId = 3, RentDate = new DateTime(2021, 1, 15, 7, 0, 0), ReturnDate = new DateTime(2021, 1, 16, 7, 0, 0) };
 
             Console.WriteLine(rentalManager.Add(rental).Message);
         }

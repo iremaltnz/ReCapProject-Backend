@@ -1,5 +1,6 @@
 ﻿using Core.Entities.Concrete;
 using Core.Utilities.Result;
+using Entities.DTOs;
 using System.Collections.Generic;
 
 namespace Business.Abstract

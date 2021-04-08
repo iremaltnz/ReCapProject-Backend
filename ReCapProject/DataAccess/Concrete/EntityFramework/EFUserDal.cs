@@ -2,6 +2,7 @@
 using Core.Entities.Concrete;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
+using Entities.DTOs;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -25,5 +26,7 @@ namespace DataAccess.Concrete.EntityFramework
 
             }
         }
+
+        
     }
 }

@@ -2,6 +2,7 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -14,22 +15,22 @@ namespace Business.Concrete
     public class RentalManager : IRentalService
     {
         IRentalDal _rentalDal;
+        IFindexService _findexService;
         List<Rental> _rentals;
-        public RentalManager(IRentalDal rentalDal)
+        public RentalManager(IRentalDal rentalDal,IFindexService findexService)
         {
             _rentalDal = rentalDal;
+            _findexService = findexService;
         }
         [ValidationAspect(typeof(RentalValidator))]
         public IResult Add(Rental rental)
         {
-            _rentals = _rentalDal.GetAll(r => r.CarId == rental.CarId);
+            IResult result = BusinessRules.Run(CheckIfCar(rental), CheckIfFindexScore(rental.CustomerId, rental.CarId));
 
-
-            if (_rentals.Count(r => r.ReturnDate == null) > 0)
+            if (result !=null)
             {
-                return new ErrorResult(Messages.RentalAddedError);
+                return result;
             }
-
             _rentalDal.Add(rental);
             return new SuccessResult(Messages.RentalAdded);
         }
@@ -68,6 +69,31 @@ namespace Business.Concrete
         {
             _rentalDal.Update(rental);
             return new SuccessResult(Messages.RentalUpdated);
+        }
+
+        private IResult CheckIfFindexScore(int customerId,int carId)
+        {
+            var result = _findexService.FindexCheck(customerId,carId);
+            if (result.Success)
+            {
+                return new SuccessResult(Messages.FindexCheckSuccess);
+            }
+
+            return new ErrorResult(Messages.FindexCheckError);
+        }
+
+        private IResult CheckIfCar(Rental rental)
+        {
+            _rentals = _rentalDal.GetAll(r => r.CarId == rental.CarId);
+
+
+            if (_rentals.Count(r => r.ReturnDate == null) > 0)
+            {
+                return new ErrorResult(Messages.RentalAddedError);
+            }
+
+
+            return new SuccessResult(Messages.CheckSuccess);
         }
     }
 }

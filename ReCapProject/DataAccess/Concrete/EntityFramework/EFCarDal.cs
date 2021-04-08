@@ -29,7 +29,8 @@ namespace DataAccess.Concrete.EntityFramework
                                  ColorName = color.ColorName,
                                  DailyPrice = car.DailyPrice,
                                  Description = car.Description,
-                                 ModelYear = car.ModelYear
+                                 ModelYear = car.ModelYear,
+                                 FindexScore=car.MinFindexScore
                              };
 
                 
@@ -49,13 +50,14 @@ namespace DataAccess.Concrete.EntityFramework
 
                              select new CarDetailDto
                              {
-                                 CarId=car.CarId,
+                                 CarId = car.CarId,
                                  CarName = car.CarName,
                                  BrandName = brand.BrandName,
                                  ColorName = color.ColorName,
                                  DailyPrice = car.DailyPrice,
-                                 Description=car.Description,
-                                 ModelYear=car.ModelYear
+                                 Description = car.Description,
+                                 ModelYear = car.ModelYear,
+                                 FindexScore = car.MinFindexScore
                              };
 
                 return result.ToList();

@@ -62,7 +62,7 @@ namespace Business.Constants
         public static string CustomerUpdated = "Musteri güncellendi";
         public static string CustomerListed = "Musteri listelendi";
         public static string CustomerDetailListed = "Musteri detayi listelendi";
-        
+
 
         public static string UserAdded = "Kullanici eklendi";
         public static string UserDeleted = "Kullanici silindi";
@@ -81,5 +81,23 @@ namespace Business.Constants
 
         public static string CheckError = "Araba Kiralanamaz";
         public static string CheckSuccess = "Araba Kiralanabilir";
+
+        public static string UserLogin = "Login işlemi başarılı";
+
+        public static string AccessTokenCreated = "Access Token Oluşturuldu.";
+
+       
+
+        public static string FindexCheckError = "Findex Puanı yetersiz" ;
+        public static string FindexCheckSuccess = "Yeterli findex puani";
+
+   
+
+        public static string CardUpdated = "Kredi Kartı Güncellendi";
+        public static string CardListed = "Kredi Kartları listelendi";
+        public static string CardDeleted = "Kredi Kartı Silindi";
+        public static string CardAdded = "Kredi Kartı Eklendi";
+
+        public static string UpdateSuccess = "Kullanıcı Güncellendi";
     }
 }

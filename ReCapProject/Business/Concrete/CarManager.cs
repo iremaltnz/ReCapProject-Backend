@@ -30,7 +30,7 @@ namespace Business.Concrete
         }
 
 
-       // [SecuredOperation("car.add,admin")]
+        [SecuredOperation("car.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
         [CacheRemoveAspect("ICarService.Get")]
         public IResult Add(Car car)
@@ -127,8 +127,8 @@ namespace Business.Concrete
         public IDataResult<List<CarDetailDto>> GetCarFilter(int colorId,int brandId)
         {
             if(brandId==0 && colorId==0) return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().ToList(), "filtre yok");
-            else if(colorId!=null && brandId==null) return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c => c.ColorName == _colorDal.GetById(b => b.ColorId == colorId).ColorName).ToList(), "color filtresi var");
-            else if(colorId==null && brandId!=null) return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c => c.BrandName == _brandDal.GetById(b => b.BrandId == brandId).BrandName).ToList(),"brand var");
+            else if(colorId!=0 && brandId==0) return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c => c.ColorName == _colorDal.GetById(b => b.ColorId == colorId).ColorName).ToList(), "color filtresi var");
+            else if(colorId==0 && brandId!=0) return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c => c.BrandName == _brandDal.GetById(b => b.BrandId == brandId).BrandName).ToList(),"brand var");
             else return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(
                 car => (car.ColorName == _colorDal.GetById( color => color.ColorId == colorId).ColorName)&&
                 (car.BrandName == _brandDal.GetById(brand => brand.BrandId == brandId).BrandName)).ToList(), "her iki filtre de vr");

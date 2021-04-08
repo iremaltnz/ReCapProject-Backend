@@ -19,17 +19,17 @@ namespace WebAPI.Controllers
             _paymentService = paymentService;
         }
 
-       [HttpPost("paymentcheck")]
-       public IActionResult Check(Payment payment)
+   
+        [HttpGet("check")]
+        public IActionResult Check( )
         {
-            var result = _paymentService.Check(payment);
+            var result = _paymentService.Check();
             if (result.Success)
             {
                 return Ok(result);
             }
-          
-                return BadRequest(result);
-            
+            return BadRequest(result);
         }
+
     }
 }
