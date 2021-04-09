@@ -49,6 +49,7 @@ namespace Business.Concrete
             return new SuccessDataResult<User>(userToCheck.Data,Messages.UserLogin);
         }
 
+        [ValidationAspect(typeof(AuthValidator))]
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
             byte[] passwordSalt, passwordHash;
